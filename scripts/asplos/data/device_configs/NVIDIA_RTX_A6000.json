@@ -1,0 +1,10 @@
+{
+  "Device": "NVIDIA RTX A6000",
+  "Dev_Mem": 48,
+  "Mem_Bw": 768,
+  "Num_Sm": 84,
+  "Core_Per_SM": 128,
+  "Freq": 1800,
+  "SingleFLOPs": 38707,
+  "L2Cache": 6
+}

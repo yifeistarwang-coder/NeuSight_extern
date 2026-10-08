@@ -1,0 +1,7 @@
+torch==2.1.0
+torchvision==0.16.0
+transformers==4.38.1
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.11.4
+tensorboard==2.15.2

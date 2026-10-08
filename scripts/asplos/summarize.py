@@ -67,7 +67,7 @@ def collect_perop_stat(entry, pred_dir, graph_dir, label_dir, device, model_desc
         label_trace = label_trace.rename(columns={
             "latency": f"e2e_latency"
         })
-        label_trace["bwall_latency"] = label_trace["bw_latency"] - label_trace["acc_latency"]
+        label_trace["bwall_latency"] = label_trace["bw_latency"] + label_trace["acc_latency"]
 
         label_trace = label_trace.rename(columns={
             tag+"_latency": f"label_{tag}_latency"

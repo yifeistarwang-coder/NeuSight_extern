@@ -13,3 +13,8 @@ out.txt
 out.csv
 cache
 library
+.venv_a6000/
+scripts/asplos/results_a6000/
+scripts/asplos/label_a6000/
+scripts/asplos/logs_a6000/
+scripts/asplos/summary_a6000/

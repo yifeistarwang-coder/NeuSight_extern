@@ -1,6 +1,6 @@
 # A6000 实验执行附录
 
-方案 review 见 [A6000_EXPERIMENT_PLAN.md](A6000_EXPERIMENT_PLAN.md)。本附录保存硬件依据、命令和实现待办，供执行时查阅。设备 JSON、runner 和实验结果均尚未生成；下列硬件与环境信息来自原规划的核查记录，本次文档整理未重新测量。
+方案 review 见 [A6000_EXPERIMENT_PLAN.md](A6000_EXPERIMENT_PLAN.md)。本附录保存原规划的硬件依据、命令和实现待办；其中“待新增／尚未生成”等表述是规划时的状态，不代表当前执行状态。本轮设备配置、runner、试跑、正式采集和汇总已完成，重新核查的环境、命令及本地结果路径见 [AGNETS.md](AGNETS.md) 和 [A6000_RUNNER.md](A6000_RUNNER.md)。以下历史硬件与环境信息仅作参考。
 
 除 Markdown 链接外，下文相对路径均以 `scripts/asplos/` 为基准。命令需在该目录执行。
 
