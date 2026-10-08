@@ -22,6 +22,14 @@ We provide two Python scripts for predicting the latency of deep learning execut
 
 The scripts use GPU and deep learning description files in JSON format, and execution hyperparameters such as batch size. See the scripts in `scripts/example` for examples of how to use these scripts.
 
+## RTX A6000 实验（中文）
+
+RTX A6000 补充实验使用冻结的预测器权重与原始 tile 表，仅评测，不回填训练数据。每项配置使用单卡；两张空闲 GPU 仅用于并行执行独立任务。
+
+- [实验说明与实测口径](scripts/asplos/README.md)：说明完整模型计时、采样与三轮汇总、算子测量的区别，以及本地报告和数据位置。
+- [分阶段运行说明](ext_scripts/docs/A6000_RUNNER.md)：包含独立环境配置、预测、试跑、正式测量、汇总与验收命令。
+- 本地结果报告：[中文版](scripts/asplos/summary_a6000/REPORT_ZH.md)／[英文版](scripts/asplos/summary_a6000/REPORT.md)。报告和实验产物均被 Git 忽略，不随仓库克隆分发；中文版为另行整理的本地文档，不由汇总脚本自动生成或更新。
+
 ## Tool Inputs
 NeuSight requires two input files to run: a device configuration file and a deep learning model configuration file.
 
